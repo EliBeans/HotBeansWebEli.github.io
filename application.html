@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comp info</title>
+    <link href="application.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+        <div class="container">
+          <h1>Apply</h1>
+          <p>Please fill in this form.</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      
+          <label for="psw"><b>Forename</b></label>
+          <input type="text" placeholder="Enter Forename" name="psw" id="psw" required>
+      
+          <label for="psw-repeat"><b>Surname</b></label>
+          <input type="text" placeholder="Enter Surname" name="psw-repeat" id="psw-repeat" required>
+          <hr>
+      
+          <p>By applying you agree to our <a href="termsservice.html">Terms & Privacy</a>.</p>
+          <button class="registerbtn" onclick="sayDone()">Apply</button>
+          <p class="sayDone1" id="click"></p>
+
+            <script>
+            function sayDone() {
+                document.getElementById("click").innerHTML = "Application Submitted";
+            }
+            </script>   
+        </div>
+      
+</body>
+</html>

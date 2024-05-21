@@ -1,0 +1,81 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* overflow-y: hidden; */
+    font-size: 24px;
+}
+.headingTrainee{
+    font-size: 34px;
+    text-align: center;
+    margin-top: 50px;
+}
+hr{
+    border: 3px solid grey;
+    margin-top: 66px;
+}
+.vertLine{
+    border-left: 6px solid grey;
+    height: 1000px;
+    margin-left: 633.33px;
+    margin-top: -12px;
+}
+.vertLine2{
+    border-left: 6px solid grey;
+    height: 1000px;
+    margin-left: 1266.66px;
+    margin-top: -1000px;
+}
+.vertLine3{
+    border-left: 6px solid grey;
+    height: 1000px;
+    margin-left: 0px;
+    margin-top: -1000px;
+}
+.vertLine4{
+    border-left: 6px solid grey;
+    height: 1000px;
+    margin-left: 1881px;
+    margin-top: -1000px;
+}
+.person1{
+    width: 550px;
+    margin-top: -766px;
+    margin-left: 36px;
+    margin-bottom: 250px;
+
+}
+.person2{
+    width: 550px;
+    margin-top: -766px;
+    margin-left: 84px;
+    margin-bottom: 250px;
+
+}
+.person3{
+    width: 550px;
+    margin-top: -801px;
+    margin-left: 66px;
+    margin-bottom: 252px;
+
+}
+.peoplePics{
+    margin-top: 150px;
+    position: absolute;
+}
+.person1Info{
+    margin-top: -850px;
+    margin-left: 36px;
+}
+.person2Info{
+    margin-top: -350px;
+    margin-left: 682px;
+}
+.person3Info{
+    margin-top: -345px;
+    margin-left: 1322px;
+}
+.picsAndInfo{
+    margin-top: 500px;
+}
+.HorizLineBottom{
+    margin-top: 15px;
+}
